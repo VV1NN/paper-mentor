@@ -3,7 +3,7 @@ name: paper-survey
 description: |
   AI 驅動的學術論文調研 — 輸入研究主題，自動從 Semantic Scholar + DBLP + arXiv 搜尋高品質論文
   （只保留頂會 CCS/S&P/NeurIPS/CVPR... 和 Q1 期刊 TPAMI/TRO/JMLR...），
-  逐篇產出 sectools.tw 風格的深度分析筆記，存進 Obsidian。
+  逐篇產出有觀點、有態度的深度分析筆記，存進 Obsidian。
 
   觸發詞: "論文調研"、"paper survey"、"幫我調研一下"、"survey this topic"、
   "文獻調研"、"research survey"、"調研一下 XXX 方向"、"survey XXX"
@@ -13,7 +13,7 @@ allowed-tools: Bash, Read, Write, Edit, Glob, Grep, WebFetch, WebSearch
 
 # PaperMentor — 高品質論文調研
 
-輸入研究主題 → 搜尋頂會/Q1 論文 → 產出 sectools.tw 風格分析 → 存進 Obsidian。
+輸入研究主題 → 搜尋頂會/Q1 論文 → 產出有觀點的深度分析 → 存進 Obsidian。
 
 ## Step 0: 讀取配置
 
@@ -84,7 +84,7 @@ WebFetch prompt：「完整提取論文的 Abstract、Introduction、Method、Ex
 
 **嚴格遵循** `./assets/survey-note-template.md` 骨架，但**章節標題和數量依論文內容調整**。
 
-#### 寫作風格規則（最重要 — 這是 sectools.tw 風格的靈魂）
+#### 寫作風格規則（最重要 — 這是 PaperMentor 風格的靈魂）
 
 **語氣**
 - 像在跟一個聰明的同事解釋這篇論文為什麼值得看
@@ -195,7 +195,7 @@ created: {date}
 ## 跨論文開放問題
 {所有論文都沒解決的共同問題}
 
-## 我的整體觀察（sectools.tw 風格）
+## 我的整體觀察
 {用一兩段話給出這個領域的現況判斷}
 
 > 「{整體洞察引言}」
