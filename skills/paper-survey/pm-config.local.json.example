@@ -1,0 +1,23 @@
+{
+  "paths": {
+    "obsidian_vault": "~/your-vault-path",
+    "survey_folder": "Papers/Surveys"
+  },
+  "survey": {
+    "max_papers_final": 10,
+    "year_range_default": 3,
+    "include_preprints": true,
+    "language": "en",
+    "semantic_scholar_api_key": "your-api-key-here"
+  },
+  "venue_overrides": {
+    "conferences": {
+      "tier1": {
+        "your_field": ["YourConf1", "YourConf2"]
+      }
+    },
+    "journals": {
+      "q1": ["Your Q1 Journal"]
+    }
+  }
+}

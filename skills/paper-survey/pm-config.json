@@ -1,0 +1,19 @@
+{
+  "paths": {
+    "obsidian_vault": "~/ObsidianVault",
+    "survey_folder": "论文調研"
+  },
+  "survey": {
+    "max_papers_per_search": 100,
+    "max_papers_final": 15,
+    "min_citation_count": 5,
+    "year_range_default": 5,
+    "include_preprints": false,
+    "language": "zh-TW",
+    "semantic_scholar_api_key": ""
+  },
+  "automation": {
+    "git_commit": false,
+    "git_push": false
+  }
+}
